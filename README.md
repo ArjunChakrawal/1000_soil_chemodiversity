@@ -1,5 +1,4 @@
 <p align="center"><h1 align="center">1000_SOIL_CHEMODIVERSITY</h1></p>
-
 <p align="center">
     <img src="https://img.shields.io/github/license/ArjunChakrawal/1000_soil_chemodiversity?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
     <img src="https://img.shields.io/github/last-commit/ArjunChakrawal/1000_soil_chemodiversity?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
