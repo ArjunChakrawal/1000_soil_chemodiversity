@@ -32,9 +32,15 @@
 
 ##  Overview
 
-<p> Our study explored the role of dissolved organic matter (DOM) chemodiversity in influencing microbial metabolism and soil respiration. Utilizing data from the Molecular Observation Network, we paired high-resolution DOM chemistry obtained from Fourier transform ion cyclotron resonance mass spectrometry (FTICR-MS) with potential soil respiration rates across the United States. The objectives were to assess the statistical relationships between DOM chemodiversity and microbial respiration, and to evaluate the effectiveness of kinetic models incorporating DOM chemistry.</p>
+<p> This repository contains all scripts and analysis workflows associated with our study:“Dissolved Organic Matter Chemodiversity as a Predictor of Microbial Metabolism and Soil Respiration.” In this study, we investigated how the molecular complexity of dissolved organic matter (DOM) influences microbial metabolism and soil respiration across diverse soil ecosystems. We integrated high-resolution DOM chemistry, characterized using Fourier Transform Ion Cyclotron Resonance Mass Spectrometry (FTICR-MS), with potential soil respiration rates from sites across the United States. </p>
 
-### All the data used in this analysis is available from the 1000 Soils Pilot Dataset repository https://zenodo.org/records/7706774, and scripts from 
+Using data from the Molecular Observation Network (MONet), specifically the [1000 Soils Pilot Dataset](https://zenodo.org/records/7706774), we pursued two main objectives:
+
+1. To evaluate statistical relationships between DOM chemodiversity indices and microbial respiration.
+
+2. To test the predictive performance of empirical and kinetic models incorporating DOM chemistry and soil biogeochemical variables.
+
+
 ---
 
 ##  Project Structure
