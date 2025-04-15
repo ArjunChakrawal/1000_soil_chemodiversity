@@ -4,6 +4,7 @@
     <img src="https://img.shields.io/github/last-commit/ArjunChakrawal/1000_soil_chemodiversity?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
     <img src="https://img.shields.io/github/languages/top/ArjunChakrawal/1000_soil_chemodiversity?style=default&color=0080ff" alt="repo-top-language">
     <img src="https://img.shields.io/github/languages/count/ArjunChakrawal/1000_soil_chemodiversity?style=default&color=0080ff" alt="repo-language-count">
+    <a href="https://doi.org/10.5281/zenodo.15225637"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15225637.svg" alt="DOI"></a>
 </p>
 <p align="center"><!-- default option, no dependency badges. -->
 </p>
