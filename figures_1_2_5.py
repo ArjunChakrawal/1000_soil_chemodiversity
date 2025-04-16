@@ -352,6 +352,7 @@ icr_by_class = icr_by_class_raw[icr_by_class_raw['Location'] == 'TOP'][t_col].co
 icr_by_class.to_csv('processed_data/icr_by_class.csv', index=False)
 
 #%% 
+
 df_BG_ICR = df_BG[df_BG.Location=="TOP"].copy()
 t_col = ['Sample','NOSC','CUE', 'lambda','AImod','DBE','Calculated m/z']
 
@@ -431,7 +432,6 @@ df_BG_ICR = df_BG_ICR.rename(columns={
 })
 df_BG_ICR['CN_WEOM'] = df_BG_ICR.WEOC_mean/df_BG_ICR.WETN_mean
 df_BG_ICR.to_csv('processed_data/df_BG_ICR.csv', index=False)
-df_BG_ICR.to_csv('C:/Users/chak803/OneDrive - PNNL/MONet/Chemodiversity/scripts/df_BG_ICR.csv', index=False)
 
 
 # %% Figure 1
@@ -548,7 +548,7 @@ for ax, var in zip(g.axes.flat, melted["variable"].unique()):
 g.set_xlabels("Alpha Diversity",fontsize=12)
 
 yvar_str = [r"Observed respiration" "\n" r"[$\mathrm{m}$g C-CO$_2$ g$^{-1}$ soil day$^{-1}$]",
-            r"$\overline{\mu}_{max} \ [\mathrm{d^{-1}}]$", r"$\overline{\mathrm{CUE}} \ [-]$"]
+            r"$\overline{\mu}_{max} \ [\mathrm{day^{-1}}]$", r"$\overline{\mathrm{CUE}} \ [-]$"]
 # Set individual x-axis labels as the column names (i.e., "mu_max", "qs_max", "CUE")
 title_Str=["(C)","(D)","(E)"]
 for ax, col_name,tstr in zip(g.axes.flat, yvar_str,title_Str):
@@ -600,7 +600,7 @@ pretty_palette = sns.color_palette("coolwarm", n_colors=len(icr_top['Site'].uniq
 sns.boxplot(x="Site", y="mu_max", data=icr_top, hue="Site", palette=pretty_palette, ax=ax[1], width=0.5, legend=False,
             flierprops=dict(marker='d', markerfacecolor='grey', markersize=2.5))
 sns.lineplot(df_BG_ICR, x="Site", y='mu_max', linewidth=1.5, color='k',  ax=ax[1])
-ax[1].set_ylabel(r"$\mu_{max}$ $\mathrm{[d^{-1}]}$")
+ax[1].set_ylabel(r"$\mu_{max}$ $\mathrm{[day^{-1}]}$")
 ax[1].set_ylim(0,1.5)
 ax[1].set_yticklabels(ax[1].get_yticklabels(), rotation=90) 
 
